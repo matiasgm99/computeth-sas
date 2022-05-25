@@ -1,0 +1,26 @@
+/*variables*/
+/*variables*/
+/*import*/
+.ProDest {
+  padding: 1rem;
+  margin: 2rem;
+  font-size: x-large;
+  background-image: linear-gradient(rgba(238, 255, 6, 0.829), rgba(0, 0, 255, 0.308));
+}
+.ProDest p {
+  color: rgb(255, 0, 255);
+}
+.ProDest p:hover {
+  color: rgb(119, 0, 255);
+}
+
+/*import*/
+#BackIma {
+  background-image: url(../assets/17973908.jpg);
+  background-repeat: no-repeat;
+}
+
+.PieDePagina ul li {
+  list-style: none;
+  color: rgb(166, 255, 0);
+}/*# sourceMappingURL=style.css.map */

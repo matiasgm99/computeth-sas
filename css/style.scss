@@ -1,0 +1,21 @@
+/*variables*/
+$fondo-total: url(../assets/17973908.jpg);
+/*variables*/
+/*import*/
+@import "Prodest";
+/*import*/
+
+#BackIma {
+    background-image: $fondo-total ;
+    background-repeat: no-repeat;
+}
+.PieDePagina{
+    ul{
+        li{
+            list-style: none;
+            color: rgb(166, 255, 0);
+        }
+    }
+    
+    
+}
