@@ -1,0 +1,13 @@
+$fondo-total: url(../assets/17973908.jpg);
+$colores:(
+    color:rgb(166, 255, 0),
+    fondoPa:cadetblue,
+);
+@mixin Fondo-texto {
+    background-color:map-get($colores, fondoPa);
+    margin-bottom: 2rem;
+    color:map-get($colores, color);
+    text-align: center;
+    font-size: 1rem;
+
+}

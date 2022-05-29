@@ -1,8 +1,6 @@
-/*variables*/
-$fondo-total: url(../assets/17973908.jpg);
-/*variables*/
-/*import*/
+    /*import*/
 @import "Prodest";
+@import "Variables";
 /*import*/
 
 #BackIma {
@@ -13,9 +11,22 @@ $fondo-total: url(../assets/17973908.jpg);
     ul{
         li{
             list-style: none;
-            color: rgb(166, 255, 0);
+           color: rgb(166, 255, 0);
         }
     }
     
-    
+}
+.DescrIng{
+    background-color:map-get($colores, fondoPa);
+    margin-bottom: 2rem;
+    .PaIng{
+        @extend .DescrIng;
+        color:map-get($colores, color);
+        text-align: center;
+        font-size: 1rem;
+     }                           
+
+}
+.TextLog{
+    @include Fondo-texto;
 }
