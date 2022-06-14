@@ -2,11 +2,19 @@
     padding: 1rem;
     margin: 2rem;
     font-size: x-large;
-    background-image: linear-gradient(rgba(238, 255, 6, 0.829), rgba(0, 0, 255, 0.308));
+    background-image: linear-gradient(rgb(44, 41, 41), rgb(218, 255, 5));
 
-        p{
-            color: rgb(255, 0, 255);
-            &:hover{
-                color:rgb(119, 0, 255);}
-         }
+    a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 10px;
+        border: solid 2px green;
+        border-radius: 20px;
+
+        &:hover {
+            font-size: 2rem;
+            transition: font-size .5s;
+            color: rgb(255, 255, 255);
+        }
+    }
 }

@@ -1,32 +1,37 @@
     /*import*/
-@import "Prodest";
-@import "Variables";
-/*import*/
+    @import "Prodest";
+    @import "Variables";
 
-#BackIma {
-    background-image: $fondo-total ;
-    background-repeat: no-repeat;
-}
-.PieDePagina{
-    ul{
-        li{
-            list-style: none;
-           color: rgb(166, 255, 0);
-        }
+    /*import*/
+
+    #BackIma {
+        background-image: $fondo-total ;
+        background-repeat: no-repeat;
     }
-    
-}
-.DescrIng{
-    background-color:map-get($colores, fondoPa);
-    margin-bottom: 2rem;
-    .PaIng{
-        @extend .DescrIng;
-        color:map-get($colores, color);
-        text-align: center;
-        font-size: 1rem;
-     }                           
 
-}
-.TextLog{
-    @include Fondo-texto;
-}
+    .PieDePagina {
+        ul {
+            li {
+                list-style: none;
+                color: rgb(166, 255, 0);
+            }
+        }
+
+    }
+
+    .DescrIng {
+        background-color: map-get($colores, fondoPa);
+        margin-bottom: 2rem;
+
+        .PaIng {
+            @extend .DescrIng;
+            color: map-get($colores, color);
+            text-align: center;
+            font-size: 1rem;
+        }
+
+    }
+
+    .TextLog {
+        @include Fondo-texto;
+    }

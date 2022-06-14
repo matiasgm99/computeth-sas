@@ -58,7 +58,7 @@
     </div>
     <!--productos destacados -->
     <div class="ProDest container text text-center">
-        <p>Nuevos productos destacados </p>
+        <a href="./articulos.html">¡Nuevos productos destacados!</a>
 
     </div>
 
@@ -66,45 +66,51 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div class="card bg-info">
+                <div class="card bg-dark">
                     <img src="./assets/placa.jpg" class="card-img-top" alt="nvidia">
                     <div class="card-body">
-                        <h5 class="card-title">Rtx 3060ti</h5>
-                        <p class="card-text">Una excelente placa de video tanto para gaming como para uso cotidiano.</p>
-                        <a href="#" class="btn btn-danger">Comprar</a>
+                        <h5 class="card-title text-warning">Rtx 3060ti</h5>
+                        <p class="card-text text-light">Una excelente placa de video tanto para gaming como para uso
+                            cotidiano.</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">Comprar</a>
 
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card bg-info">
+                <div class="card bg-dark">
                     <img src="./assets/proce.jpg" class="card-img-top" alt="i5">
                     <div class="card-body">
-                        <h5 class="card-title" href="#">i5 10400f</h5>
-                        <p class="card-text">Un procesador ideal para gaming/desktop.</p>
-                        <a href="#" class="btn btn-danger">Comprar</a>
+                        <h5 class="card-title text-warning" href="#">i5 10400f</h5>
+                        <p class="card-text text-light">Un procesador ideal para gaming/desktop.</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Comprar</a>
 
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card bg-info">
+                <div class="card bg-dark">
                     <img src="./assets/gabinete.jpg" class="card-img-top" alt="gabin">
                     <div class="card-body">
-                        <h5 class="card-title" href="#">Gabinete Rgb</h5>
-                        <p class="card-text">Gabinete con Rgb tendras espacio para todo tus componentes.</p>
-                        <a href="#" class="btn btn-danger">Comprar</a>
+                        <h5 class="card-title text-warning" href="#">Gabinete Rgb</h5>
+                        <p class="card-text text-light">Gabinete con Rgb tendras espacio para todo tus componentes.</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Comprar</a>
 
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card bg-info">
+                <div class="card bg-dark">
                     <img src="./assets/mother.jpg" class="card-img-top" alt="mother">
                     <div class="card-body">
-                        <h5 class="card-title" href="#">B560 ASUS</h5>
-                        <p class="card-text">Una excelente placa madre,la cual es compatible con procesadores intel</p>
-                        <a href="#" class="btn btn-danger">Comprar</a>
+                        <h5 class="card-title text-warning" href="#">B560 ASUS</h5>
+                        <p class="card-text text-light">Una excelente placa madre,la cual es compatible con procesadores
+                            intel</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Comprar</a>
 
                     </div>
                 </div>
@@ -136,7 +142,25 @@
                 </ul>
             </footer>
         </div>
-
+        <!--Alerta-->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Gracias por tu compra</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Esperemos que lo disfrutes
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Alerta-->
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
             integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
@@ -147,4 +171,4 @@
 
 </body>
 
-</html>
+</html>dark
