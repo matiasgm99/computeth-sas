@@ -1,21 +1,14 @@
     /*import*/
     @import "Prodest";
-    @import "Variables";
-
+    @import "VariablesMias";
     /*import*/
 
     #BackIma {
         background-image: $fondo-total ;
-        background-repeat: no-repeat;
     }
 
     .PieDePagina {
-        ul {
-            li {
-                list-style: none;
-                color: rgb(166, 255, 0);
-            }
-        }
+        color: $letra;
 
     }
 

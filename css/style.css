@@ -21,11 +21,9 @@
 /*import*/
 #BackIma {
   background-image: url(../assets/17973908.jpg);
-  background-repeat: no-repeat;
 }
 
-.PieDePagina ul li {
-  list-style: none;
+.PieDePagina {
   color: rgb(166, 255, 0);
 }
 
