@@ -18,3 +18,9 @@
         }
     }
 }
+.sponsor{
+    &:hover {
+        font-size: 2rem;
+        transition: font-size .5s;
+    }
+}

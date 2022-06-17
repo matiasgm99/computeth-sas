@@ -18,6 +18,11 @@
   color: rgb(255, 255, 255);
 }
 
+.sponsor:hover {
+  font-size: 2rem;
+  transition: font-size 0.5s;
+}
+
 /*import*/
 #BackIma {
   background-image: url(../assets/17973908.jpg);
