@@ -28,10 +28,7 @@
                         <a class="nav-link" href="./login.html">Inicio de sesion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./register.html">Registrarse</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./nosotros.html">Ayuda</a>
                     </li>
                 </ul>
             </div>
@@ -41,17 +38,17 @@
     <div class="ProDest container  text-center">
         <h1>Inicio de sesion</h1>
     </div>
-    <div class="container TextLog p-1">
+    <div class="container TextLog p-1 border border-3 border-warning">
         <p>A continuacion seguir los pasos para poder iniciar sesion.</p>
     </div>
 
-    <!--Registro-->
+    <!--login-->
     <form>
-        <div class="container bg-dark p-3">
+        <div class="container bg-dark p-3 border border-3 border-warning">
             <div class="mb-4">
                 <label for="exampleInputEmail1" class="form-label text-warning">Email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+                <div id="emailHelp" class="form-text text-light">Nunca compartiremos tu correo con nadie.</div>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label text-warning">Password</label>
@@ -59,60 +56,47 @@
             </div>
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label text-warning" for="exampleCheck1">Check me out</label>
+                <label class="form-check-label text-warning" for="exampleCheck1">Acepto terminos y condiciones</label>
             </div>
             <a href="#" button type="submit" class="btn btn-primary" data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop">Submit</a>
+            <h5 class="my-3 letraDePag text-end">¿No tienes una cuenta? <a href="./register.html">Registrate aqui</a></h5>
         </div>
     </form>
-    <!--sponsors-->
-    <div class="container p-5 my-5 bg-dark">
-        <div class="text-center sponsor">
-            <img class="m-1" src="./assets/2.jpg" alt="sponsorsimg">
-            <img class="m-1" src="./assets/3.jpg" alt="sponsorsimg">
-            <img class="m-1" src="./assets/4.jpg" alt="sponsorsimg">
-            <img class="m-1" src="./assets/5.jpg" alt="sponsorsimg">
-            <img class="m-1" src="./assets/6.jpg" alt="sponsorsimg">
-            <img class="m-1" src="./assets/1.jpg" alt="sponsorsimg">
-        </div>
-
-    </div>
     <!--Footer-->
-    <footer class="text-center text-lg-start bg-secondary PieDePagina">
+    <footer class="text-center text-lg-start bg-dark PieDePagina ">
         <section>
+            <div>
+                <div class="text-center sponsor my-5 border border-3 border-warning">
+                    <img class="my-4" src="./assets/2.jpg" alt="sponsorsimg">
+                    <img class="my-4" src="./assets/3.jpg" alt="sponsorsimg">
+                    <img class="my-4" src="./assets/4.jpg" alt="sponsorsimg">
+                    <img class="my-4" src="./assets/5.jpg" alt="sponsorsimg">
+                    <img class="my-4" src="./assets/6.jpg" alt="sponsorsimg">
+                    <img class="my-4" src="./assets/1.jpg" alt="sponsorsimg">
+                </div>
+
+            </div>
             <div class="text-center text-md-start mt-5 container">
                 <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Nosotros
+                    <div class="col-md-3 col-lg-4 mx-auto p-2 border border-warning">
+                        <h6 class="text-uppercase fw-bold text-center">
+                            Aqui encontraras ubicado el local
                         </h6>
-                        <p>
-                            Hola bienvenido al sitio web de COMPUTETH. Una excelente opcion para tu bolsillo
-                            y
-                            tu hardware.
-                        </p>
-                        <img class="container" src="./assets/logofooter.png" alt="logofooter">
-
+                        <iframe class="container"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d420292.9567304061!2d-58.433298!3d-34.615824!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1655497681387!5m2!1ses!2sar"
+                            width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="col-md-2 col-lg-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Productos
-                        </h6>
-                        <ul>
-                            <li>procesadores.</li>
-                            <li>placas.</li>
-                            <li>coolers.</li>
-                            <li>gabinetes.</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-lg-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
+                    <div class="col-md-4 col-lg-3 mx-auto mb-md-0">
+                        <h6 class="text-uppercase fw-bold mb-3">
                             Contacto
                         </h6>
                         <ul>
                             <li>Buenos aires-ciudad.</li>
                             <li>computeth@gmail.com.ar.</li>
                             <li>+54 4444-****.</li>
+                            <li>"Computeth" En Instagram y Facebook</li>
                         </ul>
                     </div>
                 </div>

@@ -1,10 +1,12 @@
     /*import*/
-    @import "Prodest";
+    @import "ProDest";
     @import "VariablesMias";
     /*import*/
 
     #BackIma {
         background-image: $fondo-total ;
+        background-attachment: fixed;
+
     }
 
     .PieDePagina {
@@ -27,4 +29,11 @@
 
     .TextLog {
         @include Fondo-texto;
+    }
+    .FondoLetra{
+        color: $letra;
+        background-color: black;
+    }
+    .letraDePag{
+        color: $letra;
     }

@@ -14,22 +14,23 @@
 }
 .ProDest a:hover {
   font-size: 2rem;
-  transition: font-size 0.5s;
+  transition: 0.5s;
   color: rgb(255, 255, 255);
 }
 
 .sponsor:hover {
-  font-size: 2rem;
-  transition: font-size 0.5s;
+  font-size: 4rem;
+  transition: 0.5s;
 }
 
 /*import*/
 #BackIma {
   background-image: url(../assets/17973908.jpg);
+  background-attachment: fixed;
 }
 
 .PieDePagina {
-  color: rgb(166, 255, 0);
+  color: #FF9F29;
 }
 
 .DescrIng, .DescrIng .PaIng {
@@ -37,7 +38,7 @@
   margin-bottom: 2rem;
 }
 .DescrIng .PaIng {
-  color: rgb(208, 255, 0);
+  color: #FF9F29;
   text-align: center;
   font-size: 1rem;
 }
@@ -45,7 +46,16 @@
 .TextLog {
   background-color: rgb(0, 0, 0);
   margin-bottom: 2rem;
-  color: rgb(208, 255, 0);
+  color: #FF9F29;
   text-align: center;
   font-size: 1rem;
+}
+
+.FondoLetra {
+  color: #FF9F29;
+  background-color: black;
+}
+
+.letraDePag {
+  color: #FF9F29;
 }/*# sourceMappingURL=style.css.map */
