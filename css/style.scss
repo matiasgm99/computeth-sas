@@ -37,3 +37,15 @@
     .letraDePag{
         color: $letra;
     }
+    .mihover{
+        &:hover{
+            font-size: 1.3rem;
+            
+        }
+    }
+    .banerCuotas{
+        border-radius:14%;
+    }
+    .banerPc{
+        border-radius: 10%;
+    }

@@ -21,8 +21,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./articulos.html">Articulos</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Articulos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./articulos.html">Componentes de pc</a></li>
+                            <li><a class="dropdown-item" href="./articulos.html">Perifericos</a></li>
+                            <li><a class="dropdown-item" href="./articulos.html">Monitores</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./login.html">Inicio de sesion</a>
@@ -60,7 +68,8 @@
             </div>
             <a href="#" button type="submit" class="btn btn-primary" data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop">Submit</a>
-            <h5 class="my-3 letraDePag text-end">¿No tienes una cuenta? <a href="./register.html">Registrate aqui</a></h5>
+            <h5 class="my-3 letraDePag text-end">¿No tienes una cuenta? <a href="./register.html">Registrate aqui</a>
+            </h5>
         </div>
     </form>
     <!--Footer-->
@@ -79,7 +88,7 @@
             </div>
             <div class="text-center text-md-start mt-5 container">
                 <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 mx-auto p-2 border border-warning">
+                    <div class="col-md-3 col-lg-4 mx-auto p-2 border border-3 border-warning">
                         <h6 class="text-uppercase fw-bold text-center">
                             Aqui encontraras ubicado el local
                         </h6>
@@ -120,7 +129,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Gracias por volver
+                    Tus productos te esperan!
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
